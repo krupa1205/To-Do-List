@@ -112,10 +112,10 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="task-date">${dateString}</span>
             <div class="task-actions">
                 <button class="task-btn complete-btn">
-                    <img src="assets/${task.completed ? 'pending.png' : 'work2.png'}" class="icon" alt="${task.completed ? 'Undo' : 'Complete'}">
+                    <img src="${task.completed ? 'pending.png' : 'work2.png'}" class="icon" alt="${task.completed ? 'Undo' : 'Complete'}">
                 </button>
                 <button class="task-btn delete-btn">
-                    <img src="assets/pending.png" class="icon" alt="Delete">
+                    <img src="pending.png" class="icon" alt="Delete">
                 </button>
             </div>
         `;
